@@ -1,0 +1,7 @@
+assumption,meaning,status / limitation
+Consistency,Tutoring is a well-defined intervention with comparable versions,Not established by synthetic observational rows alone
+Conditional exchangeability,Measured pre-treatment covariates block confounding,Motivation is unobserved in this demonstration; residual confounding remains plausible
+Positivity,Both treatment states occur across covariate strata,Only basic observed-range overlap was checked; inspect propensity-score overlap in real work
+No interference,One student's treatment does not affect another student's outcome,Not tested here
+Correct temporal ordering,Adjustment variables precede treatment unless explicitly diagnostic,Study hours are post-treatment and should not be adjusted for when estimating the total effect
+Negative control,A pre-treatment outcome should not be caused by current tutoring,"Use as a refutation diagnostic, not a definitive test"
